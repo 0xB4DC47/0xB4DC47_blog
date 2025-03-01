@@ -2,9 +2,9 @@
 --- 
 // do not delete two dashed lines
 
-@import 'normalize';
-@import 'code_style';
-@import 'flexible';
+@use 'normalize';
+@use 'code_style';
+@use 'flexible' as *;
 
 
 /* 0. Variables
