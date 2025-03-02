@@ -172,7 +172,8 @@ img {
 
 .aboutme {
     @include breakpoint(medium) {
-        max-width: 30rem;
+        // max-width: 30rem; original value
+        max-width: 50rem;
         margin-top: 5.5rem;
 
         img {
