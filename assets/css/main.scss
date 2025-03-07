@@ -4,7 +4,7 @@
 
 @use 'normalize';
 @use 'code_style';
-@use 'flexible' as *;
+@import 'flexible';
 
 
 /* 0. Variables
