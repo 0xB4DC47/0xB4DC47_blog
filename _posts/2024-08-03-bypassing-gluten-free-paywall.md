@@ -1,6 +1,6 @@
 ---
 title: Bypassing the Gluten-Free Paywall
-categories: [dev, android]
+categories: [dev]
 comments: true
 ---
 
@@ -42,7 +42,7 @@ These encrypted database files are hosted on a CDN and seem to be updated often.
 
 ```java
  public synchronized SQLiteDatabase getReadableDatabase() {
-     return getReadableDatabase(A******fcAfcCategoria.dk1 + A******fcfcRating.dk2 + Brand.dk3 + Category.dk4 
+     return getReadableDatabase(A******fcAfcCat****ia.dk1 + A******fcRating.dk2 + Brand.dk3 + Category.dk4 
      + InfoAg******a.dk5 + Product.dk6 + Prov******a.dk7 + Company.dk8);
  }
 ```
@@ -51,7 +51,7 @@ Clearly this is an attempt at obfuscating the key. However by searching for defi
 
 
 ```java
-A******fcAfcCategoria.dk1 = "hMoz#kTU"
+A******fcAfcCat****ia.dk1 = "hMoz#kTU"
 A******fcfcRating.dk2 = "BcQTbMXQ"
 Brand.dk3 = "6zLxKgR4"
 Category.dk4 = "kEd9kAKF"
@@ -97,7 +97,8 @@ This means that the following settings can be applied within [DB Browser for SQL
 "plaintext_header_size: 0
 ```
 
-Now we can access the full list of certified restaurants
+Now we can access the full list of certified restaurants (this picture is so heavily obfuscated it could be a completely random DB):
+
 ![Image](/assets/img/gluten_free_db_decrypt.png)
 
 
