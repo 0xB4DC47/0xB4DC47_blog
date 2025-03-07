@@ -1,5 +1,5 @@
 
-title: "0xB4DCA7" #Your awesome title
+title: "0xB4DC47" #Your awesome title
 email: #youremail@domain.com
 description: > # this means to ignore newlines until "baseurl"
   Welcome to my technical journal where I share my experiences and knowledge about hacking, PCB design, software design,
@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl"
 
 
 baseurl: "" # the subpath of the site
-url: https://0xb4dc47.github.io/ # the base hostname & protocol for your site
+url: https://0xB4DC47_blog.github.io/ # the base hostname & protocol for your site
 
 permalink: /:year-:month/:title
 timezone: "America/New_York"
