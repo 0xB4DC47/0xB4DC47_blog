@@ -6,11 +6,12 @@ description: > # this means to ignore newlines until "baseurl"
   language learning, and more.
 
 
-baseurl: # the subpath of the site
-url: http://0xb4dc47.com/ # the base hostname & protocol for your site
+baseurl: "" # the subpath of the site
+url: http://0xb4dc47.github.io/ # the base hostname & protocol for your site
 
 permalink: /:year-:month/:title
-timezone:
+timezone: "America/New_York"
+
 
 favicon: /assets/img/favicon.ico
 
