@@ -37,7 +37,7 @@ Luckily for us, we can download these files without any authentication so by nav
 We can assume these files are encrypted as we see "enc" in the name. So the next step is to find the decryption key. This would either be stored locally in the app (unsafe) or come as a response to an authenticated request to the server (good). It was the former for us..
 
 
-# Finding the encryption
+# Finding the encryption key
 These encrypted database files are hosted on a CDN and seem to be updated often. By decompiling the app using `jadx-gui` we can search for keywords to find the piece of code that downloads these files. After a quick search you can find the encryption key in the `getReadableDatabase()` method of the `SQLiteDatabaseHelper` class seen below:
 
 ```java
