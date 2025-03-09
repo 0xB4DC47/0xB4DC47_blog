@@ -99,7 +99,7 @@ This means that the following settings can be applied within [DB Browser for SQL
 
 Now we can access the full list of certified restaurants (this picture is so heavily obfuscated it could be a completely random DB):
 
-![Image](/assets/img/gluten_free_db_decrypt.png)
+![Image](../assets/img/gluten_free_db_decrypt.png)
 
 
 ## Alternative Route - Escalating Privileges by modifying shared prefs
