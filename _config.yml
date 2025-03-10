@@ -40,7 +40,8 @@ defaults:
       comment: true   
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-markdown: kramdown 
+markdown: kramdown
+highlighter: rouge
 
 # Filtering Content
 show_drafts: null
