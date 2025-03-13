@@ -42,8 +42,8 @@ These encrypted database files are hosted on a CDN and seem to be updated often.
 
 ```java
  public synchronized SQLiteDatabase getReadableDatabase() {
-     return getReadableDatabase(A******fcAfcCat****ia.dk1 + A******fcRating.dk2 + Brand.dk3 + Category.dk4 
-     + InfoAg******a.dk5 + Product.dk6 + Prov******a.dk7 + Company.dk8);
+     return getReadableDatabase(A******fcAfcCat****ia.dk1 + A******fcRating.dk2 + Brand.dk3 
+     + Category.dk4 + InfoAg******a.dk5 + Product.dk6 + Prov******a.dk7 + Company.dk8);
  }
 ```
 
