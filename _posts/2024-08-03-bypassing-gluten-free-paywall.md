@@ -1,6 +1,6 @@
 ---
 title: Bypassing the Gluten-Free Paywall
-categories: [dev]
+categories: [Random]
 comments: true
 ---
 
