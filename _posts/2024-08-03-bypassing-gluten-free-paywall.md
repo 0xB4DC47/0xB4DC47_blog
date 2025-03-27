@@ -71,8 +71,7 @@ Having they key alone isn't enough to be able to decrypt the databases. The othe
 
 ```java
 public SQLiteDatabaseHelper(String str, int i) {
-     super(AicMobileApp.getInstance().getApplicationContext(), str, null, i, new SQLiteDatabaseHook() {
-         /* class org.casarini.android.aicmobile.model.SQLiteDatabaseHelper.C09951 */
+     super(AcMobileApp.getInstance().getApplicationContext(), str, null, i, new SQLiteDatabaseHook() {
 
          @Override // net.sqlcipher.database.SQLiteDatabaseHook
          public void preKey(SQLiteDatabase sQLiteDatabase) {}
@@ -82,7 +81,7 @@ public SQLiteDatabaseHelper(String str, int i) {
              sQLiteDatabase.rawQuery("PRAGMA cipher_compatibility = 2;", (String[]) null).close();
          }
      });
-     SQLiteDatabase.loadLibs(AicMobileApp.getInstance().getApplicationContext());
+     SQLiteDatabase.loadLibs(AcMobileApp.getInstance().getApplicationContext());
  }
 
 ```
